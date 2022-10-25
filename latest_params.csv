@@ -1,0 +1,45 @@
+﻿Type,Name of Variable,Description of Variable,Type of Variable
+Demographic,sex,Patient's gender,Categorical
+Demographic,age,Patient's age,Numerical
+Demographic,age_grp,Patient's age group,Categorical
+Demographic,he_bmi,Body mass index (kg/m2),Numerical
+Diagnosis,he_dmfh,Diabetes family history,Categorical
+Treatment,de1_dur,Duration of diabetes,Numerical
+Treatment,de1_3,Diabetes Treatment,Categorical
+Treatment,de1_31,Diabetes treatment with insulin injection,Categorical
+Treatment,de1_32,Diabetes treatment with oral medication,Categorical
+Treatment,he_glu,Fasting blood sugar (mg/dl),Numerical
+Treatment,he_hba1c,Hemoglobin_A1c (%),Numerical
+Treatment,he_bun,Blood urea nitrogen (mg/dL),Numerical
+Treatment,he_crea,Blood serum creatinine (mg/dL),Numerical
+Treatment,he_dm,Diabetes status (by test),Categorical
+Alcohol and Smoking,dr_month,Drinking more than once a month,Categorical
+Alcohol and Smoking,dr_high,High risk drinking,Categorical
+Alcohol and Smoking,sm_presnt,Current smoking status,Categorical
+Obesity,he_obe,Obesity status,Categorical
+Hypertension,he_sbp,Systolic blood pressure (mmHg),Numerical
+Hypertension,he_dbp,Diastolic blood pressure (mmHg),Numerical
+Hypertension,he_hp,Hypertension Status (by test),Categorical
+Hyperlipidemia,he_chol,Total cholesterol (mg/dL),Numerical
+Hyperlipidemia,he_hdl_st2,HDL cholesterol (mg/dL),Numerical
+Hyperlipidemia,he_tg,Triglycerides (mg/dL),Numerical
+Hyperlipidemia,he_hchol,Hyperlipidemia status,Categorical
+Stroke,di3_dg,Stroke diagnosis ,Categorical
+Cardiovascular Disease,di4_dg,Myocardial infarction or angina diagnosis status,Categorical
+Nutrition,n_en,Daily intake of energy (kcal),Numerical
+Nutrition,n_prot,Daily intake of protein (g),Numerical
+Nutrition,n_fat,Daily intake of fat (g),Numerical
+Nutrition,n_cho,Daily intake of carbohydrate (g),Numerical
+Nutrition,n_en_prot,Energy intake from protein,Numerical
+Nutrition,n_en_fat,Energy intake from fat,Numerical
+Nutrition,n_en_cho,Energy intake from carbohydrate,Numerical
+Nutrition,n_en_tot,Total dietary energy,Numerical
+Physical Activity,pa_vigmet,MET score of vigorous activities,Numerical
+Physical Activity,pa_modmet,MET score of moderate activities,Numerical
+Physical Activity,pa_walkmet,MET score of walking,Numerical
+Physical Activity,pa_totmet,MET score of all activities,Numerical
+Physical Activity,pa_vig_tm,Total minutes of vigorous activities,Numerical
+Physical Activity,pa_mod_tm,Total minutes of moderate activities,Numerical
+Physical Activity,pa_walk_tm,Total minutes of walking,Numerical
+Physical Activity,pa_aerobic,Regular aerobic activities in a week,Categorical
+Physical Activity,pa_walk,Regular walking exercise in a week,Categorical
