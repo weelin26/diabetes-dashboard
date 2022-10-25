@@ -147,7 +147,7 @@ with col2:
 # st.sidebar.markdown("[![Foo](http://retimark.com/layout/images/common/logo_on.png)](http://retimark.com/layout/eng/home.php?go=main)")
 # logo = Image.open('D:/diabetes-prediction/dashboard/logo.png')
 # company logo link for deployment
-logo = Image.open('dashboard/logo.png')
+logo = Image.open('logo.png')
 col1, col2, col3 = st.sidebar.columns(3)
 with col2:
     st.image(logo)
