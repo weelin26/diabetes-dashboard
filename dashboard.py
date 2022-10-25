@@ -26,10 +26,10 @@ import base64 #for gif
 # RETINOPATHY_PARAMS_URL = ("D:/diabetes-prediction/dashboard/retinopathy_params.csv")
 
 # LINKS FOR DEPLOYMENT
-DIABETES_DATA_URL = ("dashboard/latest_dataset.csv")
-DIABETES_PARAMS_URL = ("dashboard/latest_params.csv")
-RETINOPATHY_DATA_URL = ("dashboard/retinopathy_dataset.csv") 
-RETINOPATHY_PARAMS_URL = ("dashboard/retinopathy_params.csv")
+DIABETES_DATA_URL = ("latest_dataset.csv")
+DIABETES_PARAMS_URL = ("latest_params.csv")
+RETINOPATHY_DATA_URL = ("retinopathy_dataset.csv") 
+RETINOPATHY_PARAMS_URL = ("retinopathy_params.csv")
 
 ## Links for Retimark Logo and Pictures
 # logo="C:/diabetes-prediction/dashboard/logo.png"
@@ -136,7 +136,7 @@ show_placeholder1(True)
 ##Mascot gif for homepage
 # mascot = open("D:/diabetes-prediction/dashboard/mascot.gif", "rb")
 ## Mascot link for deployment
-mascot = open("dashboard/mascot.gif", "rb")
+mascot = open("mascot.gif", "rb")
 contents = mascot.read()
 mascot_url = base64.b64encode(contents).decode("utf-8")
 mascot.close()
