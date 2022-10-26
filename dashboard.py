@@ -44,13 +44,13 @@ st.set_page_config(page_title="Retimark - Exploratory Visualization Dashboard", 
 #st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 ## hide the menu bar at top right and message from Streamlit
-st.markdown("""
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """, unsafe_allow_html=True)
+# st.markdown("""
+#             <style>
+#             #MainMenu {visibility: hidden;}
+#             footer {visibility: hidden;}
+#             header {visibility: hidden;}
+#             </style>
+#             """, unsafe_allow_html=True)
 
 # ##Set font - using Raleway (can go google fonts and apply any)
 # st.write("""
