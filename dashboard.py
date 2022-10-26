@@ -31,40 +31,22 @@ DIABETES_PARAMS_URL = ("latest_params.csv")
 RETINOPATHY_DATA_URL = ("retinopathy_dataset.csv") 
 RETINOPATHY_PARAMS_URL = ("retinopathy_params.csv")
 
-## Links for Retimark Logo and Pictures
-# logo="C:/diabetes-prediction/dashboard/logo.png"
-
-
-#bg = "dashboard/background.jpg"
-# bg = "C:/Users/yeoyu/Downloads/diabetes-prediction/dashboard/background.jpg"
-
 ## Set the Page Config
 st.set_page_config(page_title="Retimark - Exploratory Visualization Dashboard", page_icon=':kr:',layout='wide')
 
 #st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 ## hide the menu bar at top right and message from Streamlit
-# st.markdown("""
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             header {visibility: hidden;}
-#             </style>
-#             """, unsafe_allow_html=True)
-
-# ##Set font - using Raleway (can go google fonts and apply any)
-# st.write("""
-#         <style>
-#         @import url('https://fonts.googleapis.com/css2?family=Raleway');
-#         html, body, [class*="css"]  {
-#         font-family: 'Raleway';
-#         }
-#         </style>
-#         """, unsafe_allow_html=True)
+st.markdown("""
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """, unsafe_allow_html=True)
 
 ##Set the Title of Dashboard
 st.markdown("# Exploratory Visualization Dashboard of Diabetes Dataset")
-#st.markdown("This dataset is Korea National Health & Nutrition Examination Survey Data obtained from 2012, 2017 and 2018.", unsafe_allow_html=True)
 
 ##Description of data 
 placeholder1 = st.empty()
